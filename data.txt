@@ -1,0 +1,10 @@
+AENB1255;Fusion core;1500;
+TRA56784;Miltiplasmid relay;50;
+BUCK6452;Electronic conducor;288000;
+AENT5344;2-stage reductor;150;
+BUCK5555;regular reducotor R1;1180;
+STR12556;regular reductor M1;610;
+STR24551;LAER-2581;450;
+STR00125;Unidentified;420;
+STB11329;Creocontainer Model 12.1;800;
+TRA57655;Mark II Powered Combat Armor;400;
