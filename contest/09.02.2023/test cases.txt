@@ -1,0 +1,26 @@
+Test cases for contest1.py
+
+2
+1 2
+extected: 1
+
+5
+1 1 5 5 5
+extected: 4
+
+3
+3 2 1
+extected: -1
+
+Test case for contest2.py
+
+8
+50 7 25 3632 A
+14 23 52 212372 S
+15 0 5 3632 C
+14 21 30 212372 A
+50 7 26 3632 C
+14 21 30 3632 A
+14 21 40 212372 B
+14 23 52 3632 B
+extected: 142 156
