@@ -2,7 +2,7 @@
 import sys
 import getopt
 # import structure used to view data
-from structure import Detail
+from lab_work.structure import Detail
 # import random for genration of pivot element 
 import random
 
