@@ -1,0 +1,14 @@
+abacaba
+
+hello
+
+
+Expected output for corresponding tests:
+a: 44
+b: 24
+c: 16
+
+e: 8
+h: 5
+l: 17
+o: 5

@@ -1,0 +1,55 @@
+push 1
+back
+exit
+
+size
+push 1
+size
+push 2
+size
+push 3
+size
+exit
+
+push 3
+push 14
+size
+clear
+push 1
+back
+push 2
+back
+pop
+size
+pop
+size
+exit
+
+expected output for corresponding test:
+
+ok
+1
+bye
+
+0
+ok
+1
+ok
+2
+ok
+3
+bye
+
+ok
+ok
+2
+ok
+ok
+1
+ok
+2
+2
+1
+1
+0
+bye
