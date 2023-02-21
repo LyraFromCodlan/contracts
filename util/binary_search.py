@@ -1,16 +1,20 @@
 k = int(input())
-el_list= [int(el) for el in input().split()]
+el_list= sorted({int(el) for el in input().split()})
 
 mid = len(el_list) // 2
 low = 0
 high = len(el_list) - 1
- 
-while el_list[mid] != k and low <= high and len(el_list[low:high])>=2:
-    if k > el_list[mid]:
-        low = mid + 1
-    else:
-        high = mid - 1
-    mid = (low + high) // 2
- 
-print(el_list[low:mid+1])
-print("ID = ",mid)
+
+if k<=el_list[0]:
+    print("counter=",0)
+elif k>el_list[-1]:
+    print("counter=",len(el_list))
+else:
+    while low < high:
+        if k > el_list[mid]:
+            low = mid + 1
+        else:
+            high = mid - 1
+        mid = (low + high) // 2
+
+    print("counter=", mid if el_list[mid]>=k else mid+1)
