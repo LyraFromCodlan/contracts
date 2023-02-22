@@ -2,7 +2,7 @@ letter : str = input()
 limit : int = int(input())
 line : str = input().strip()
 
-max_len = 1
+max_len = 0
 right_pointer : int = 0
 
 for left_pointer in range(0,len(line)):
