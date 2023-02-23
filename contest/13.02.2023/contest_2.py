@@ -1,7 +1,3 @@
-import string
-
-alphabet = {letter: 0 for letter in string.ascii_lowercase}
-
 with open("input.txt","r") as ifile, open("output.txt","w") as ofile:
     limit = int(ifile.readline())
     line = ifile.readline().strip()
