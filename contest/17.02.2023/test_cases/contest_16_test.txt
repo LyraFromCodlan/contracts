@@ -1,0 +1,54 @@
+push 1
+front
+exit
+
+size
+push 1
+size
+push 2
+size
+push 3
+size
+exit
+
+push 3
+push 14
+size
+clear
+push 1
+front
+push 2
+front
+pop
+size
+pop
+size
+exit
+
+Expected output for corrseponding test cases:
+ok
+1
+bye
+
+0
+ok
+1
+ok
+2
+ok
+3
+bye
+
+ok
+ok
+2
+ok
+ok
+1
+ok
+1
+1
+1
+2
+0
+bye
