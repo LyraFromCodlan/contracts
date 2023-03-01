@@ -17,4 +17,4 @@ else:
             high = mid - 1
         mid = (low + high) // 2
 
-    print("counter=", mid if el_list[mid]>=k else mid+1)
+    print("counter=", mid if el_list[mid]>=k else mid+1)  
