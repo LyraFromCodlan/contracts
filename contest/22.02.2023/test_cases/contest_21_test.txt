@@ -1,0 +1,12 @@
+1
+
+2
+
+35
+
+Expected outout for corresponding test cases:
+2
+
+4
+
+2082876103

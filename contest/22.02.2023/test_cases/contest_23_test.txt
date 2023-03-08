@@ -1,0 +1,10 @@
+1
+
+5
+
+Expected outout for corresponding test cases:
+0
+1
+
+3
+1 3 4 5
