@@ -8,4 +8,5 @@ def h(x, y):
 def get_max_value(x,y):
     return x if x>=y else y
 
-print(h(s,t)+get_max_value(h(s-t,s*t)**2,h(s-t,s+t)**4)+h(1,1))
+result = h(s,t)+get_max_value(h(s-t,s*t)**2,h(s-t,s+t)**4)+h(1,1)
+print(result)
